@@ -1,0 +1,97 @@
+                    @media (max-width: 767px) {
+                        /*       Header Option*/
+                        .logo img {
+                            width: 50px;
+                            height: 50px;
+                            transition: .3s;
+                        }
+                        .navbar-default .navbar-nav>li>a {
+                            padding: 6px 19px;
+                        }
+                        .logo {
+                            padding-top: 4px;
+                            margin-bottom: 4px;
+                        }
+                        .isotope-overlay h2 {
+                            margin-top: 55px;
+                            font-size: 8px;
+                        }
+                        .load-more a {
+                            font-size: 11px;
+                            font-weight: 600;
+                            border: 1px solid #353535;
+                            padding: 10px 15px;
+                        }
+                        a.more-button {
+                            font-size: 10px;
+                            font-weight: 700;
+                            border: 1px solid #353535;
+                            padding: 10px 15px;
+                            margin: 0px 3px;
+                        }
+                        .button {
+                            font-size: 10px;
+                            margin-bottom: 4px;
+                            margin-top: 10px;
+                        }
+                        .test-img img {
+                            margin-top: 153px;
+                            border-radius: 50%;
+                            width: 80px;
+                            height: 70px;
+                            border: 0px;
+                        }
+                        .test-text {
+                            margin-left: 103px;
+                            background: #2323;
+                            padding: 33px 6px;
+                            position: relative;
+                        }
+                        .test-text span {
+                            margin: 0px 0px;
+                        }
+                    }
+                    
+                    @media (min-width: 768px) and (max-width: 991px) {
+                        .navbar-default .navbar-nav>li>a {
+                            padding: 20px 4px;
+                            font-size: 12px;
+                        }
+                        .logo img {
+                            width: 50px;
+                            height: 50px;
+                            transition: .3s;
+                        }
+                        .header-area.sticky .navbar-default .navbar-nav>li>a {
+                            padding: 24px 1px;
+                        }
+                        .social-icon a,
+                        .icon-list a {
+                            width: 0px;
+                            height: 0px;
+                            background: #ddd;
+                            color: green;
+                            margin: 0px 11px;
+                            transition: 1s;
+                        }
+                        .social-icon {
+                            margin-top: 16px;
+                            transition: .3s;
+                        }
+                        .isotope-overlay h2 {
+                            margin-top: 122px;
+                            font-size: 20px;
+                        }
+                        .our-expertise h2 {
+                            font-size: 25px;
+                            text-align: center;
+                        }
+                    }
+                    
+                    @media (min-width: 992px) and (max-width: 1200px) {
+                        .navbar-default .navbar-nav>li>a {
+                            padding: 35px 9px;
+                        }
+                    }
+                    
+                    @media (min-width: @screen-lg-min) {}
